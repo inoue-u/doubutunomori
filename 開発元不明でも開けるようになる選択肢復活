@@ -1,0 +1,4 @@
+開発元不明でも開けるようになる選択肢復活
+sudo spctl --master-disable
+非表示
+sudo spctl --master-enable
