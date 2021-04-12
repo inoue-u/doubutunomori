@@ -1,0 +1,9 @@
+Condaコマンド使えるようにする
+$ touch ~/.bash_profile
+$ echo 'export PATH="~/.pyenv/versions/anaconda3-5.2.0/bin/:$PATH"' >> ~/.bash_profile
+$ source ~/.bash_profile
+
+$ conda --version
+
+以降は↓
+$ source ~/.bash_profile
